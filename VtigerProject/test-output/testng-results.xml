@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login has Failed]]>
+    </line>
+    <line>
+      <![CDATA[Purchase Order page is not displayed properly ]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Logged out from application]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Closed The browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14788" started-at="2022-02-01T16:29:19 IST" finished-at="2022-02-01T16:29:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14788" started-at="2022-02-01T16:29:19 IST" finished-at="2022-02-01T16:29:34 IST">
+      <class name="purchaseOrderModule.TC_16Test">
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="launchingBrowser" is-config="true" duration-ms="2067" started-at="2022-02-01T16:29:19 IST" finished-at="2022-02-01T16:29:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Browser Maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchingBrowser -->
+        <test-method status="PASS" signature="loginToVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="loginToVtiger" is-config="true" duration-ms="5667" started-at="2022-02-01T16:29:21 IST" finished-at="2022-02-01T16:29:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login has Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToVtiger -->
+        <test-method status="PASS" signature="HomePageVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="HomePageVtiger" is-config="true" duration-ms="3640" started-at="2022-02-01T16:29:27 IST" finished-at="2022-02-01T16:29:31 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Purchase Order page is not displayed properly ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageVtiger -->
+        <test-method status="PASS" signature="PurchaseOrderAndStatusAsApproved()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="PurchaseOrderAndStatusAsApproved" duration-ms="1413" started-at="2022-02-01T16:29:31 IST" finished-at="2022-02-01T16:29:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderAndStatusAsApproved -->
+        <test-method status="PASS" signature="LogoutFromVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="LogoutFromVtiger" is-config="true" duration-ms="1122" started-at="2022-02-01T16:29:32 IST" finished-at="2022-02-01T16:29:33 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Logged out from application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogoutFromVtiger -->
+        <test-method status="PASS" signature="ClosingBrowser()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="ClosingBrowser" is-config="true" duration-ms="840" started-at="2022-02-01T16:29:33 IST" finished-at="2022-02-01T16:29:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Closed The browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+      </class> <!-- purchaseOrderModule.TC_16Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
