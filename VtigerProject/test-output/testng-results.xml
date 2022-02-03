@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="3" failed="0" ignored="3" total="7" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Browser is Launched Successfully]]>
@@ -20,12 +20,12 @@
       <![CDATA[Successfully Closed The browser]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14788" started-at="2022-02-01T16:29:19 IST" finished-at="2022-02-01T16:29:34 IST">
+  <suite name="Failed suite [Suite]" duration-ms="40675" started-at="2022-02-03T09:25:52 IST" finished-at="2022-02-03T09:26:32 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14788" started-at="2022-02-01T16:29:19 IST" finished-at="2022-02-01T16:29:34 IST">
+    <test name="Test(failed)" duration-ms="40675" started-at="2022-02-03T09:25:52 IST" finished-at="2022-02-03T09:26:32 IST">
       <class name="purchaseOrderModule.TC_16Test">
-        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="launchingBrowser" is-config="true" duration-ms="2067" started-at="2022-02-01T16:29:19 IST" finished-at="2022-02-01T16:29:21 IST">
+        <test-method status="PASS" signature="launchingBrowser()[pri:0, instance:purchaseOrderModule.TC_16Test@20140db9]" name="launchingBrowser" is-config="true" duration-ms="4389" started-at="2022-02-03T09:25:52 IST" finished-at="2022-02-03T09:25:56 IST">
           <reporter-output>
             <line>
               <![CDATA[Browser is Launched Successfully]]>
@@ -35,32 +35,32 @@
             </line>
           </reporter-output>
         </test-method> <!-- launchingBrowser -->
-        <test-method status="PASS" signature="loginToVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="loginToVtiger" is-config="true" duration-ms="5667" started-at="2022-02-01T16:29:21 IST" finished-at="2022-02-01T16:29:27 IST">
+        <test-method status="PASS" signature="loginToVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@20140db9]" name="loginToVtiger" is-config="true" duration-ms="11830" started-at="2022-02-03T09:25:56 IST" finished-at="2022-02-03T09:26:08 IST">
           <reporter-output>
             <line>
               <![CDATA[Login has Failed]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginToVtiger -->
-        <test-method status="PASS" signature="HomePageVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="HomePageVtiger" is-config="true" duration-ms="3640" started-at="2022-02-01T16:29:27 IST" finished-at="2022-02-01T16:29:31 IST">
+        <test-method status="PASS" signature="HomePageVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@20140db9]" name="HomePageVtiger" is-config="true" duration-ms="13774" started-at="2022-02-03T09:26:08 IST" finished-at="2022-02-03T09:26:22 IST">
           <reporter-output>
             <line>
               <![CDATA[Purchase Order page is not displayed properly ]]>
             </line>
           </reporter-output>
         </test-method> <!-- HomePageVtiger -->
-        <test-method status="PASS" signature="PurchaseOrderAndStatusAsApproved()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="PurchaseOrderAndStatusAsApproved" duration-ms="1413" started-at="2022-02-01T16:29:31 IST" finished-at="2022-02-01T16:29:32 IST">
+        <test-method status="PASS" signature="PurchaseOrderAndStatusAsApproved()[pri:0, instance:purchaseOrderModule.TC_16Test@20140db9]" name="PurchaseOrderAndStatusAsApproved" duration-ms="5288" started-at="2022-02-03T09:26:22 IST" finished-at="2022-02-03T09:26:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PurchaseOrderAndStatusAsApproved -->
-        <test-method status="PASS" signature="LogoutFromVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="LogoutFromVtiger" is-config="true" duration-ms="1122" started-at="2022-02-01T16:29:32 IST" finished-at="2022-02-01T16:29:33 IST">
+        <test-method status="PASS" signature="LogoutFromVtiger()[pri:0, instance:purchaseOrderModule.TC_16Test@20140db9]" name="LogoutFromVtiger" is-config="true" duration-ms="3797" started-at="2022-02-03T09:26:27 IST" finished-at="2022-02-03T09:26:31 IST">
           <reporter-output>
             <line>
               <![CDATA[Successfully Logged out from application]]>
             </line>
           </reporter-output>
         </test-method> <!-- LogoutFromVtiger -->
-        <test-method status="PASS" signature="ClosingBrowser()[pri:0, instance:purchaseOrderModule.TC_16Test@1af2d44a]" name="ClosingBrowser" is-config="true" duration-ms="840" started-at="2022-02-01T16:29:33 IST" finished-at="2022-02-01T16:29:34 IST">
+        <test-method status="PASS" signature="ClosingBrowser()[pri:0, instance:purchaseOrderModule.TC_16Test@20140db9]" name="ClosingBrowser" is-config="true" duration-ms="1287" started-at="2022-02-03T09:26:31 IST" finished-at="2022-02-03T09:26:32 IST">
           <reporter-output>
             <line>
               <![CDATA[Successfully Closed The browser]]>
@@ -68,6 +68,270 @@
           </reporter-output>
         </test-method> <!-- ClosingBrowser -->
       </class> <!-- purchaseOrderModule.TC_16Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="purchaseOrderModule.TC_17Test">
+        <test-method status="FAIL" signature="loginToVtiger()[pri:0, instance:purchaseOrderModule.TC_17Test@368247b9]" name="loginToVtiger" is-config="true" duration-ms="1" started-at="2022-02-03T09:26:32 IST" finished-at="2022-02-03T09:26:32 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at genericLibrary.BaseClass.loginToVtiger(BaseClass.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToVtiger -->
+        <test-method status="SKIP" signature="HomePageVtiger()[pri:0, instance:purchaseOrderModule.TC_17Test@368247b9]" name="HomePageVtiger" is-config="true" duration-ms="-1643860592616" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageVtiger -->
+        <test-method status="SKIP" signature="PurchaseOrderAndStatusAsCreated()[pri:0, instance:purchaseOrderModule.TC_17Test@368247b9]" name="PurchaseOrderAndStatusAsCreated" duration-ms="0" started-at="2022-02-03T09:26:32 IST" finished-at="2022-02-03T09:26:32 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at genericLibrary.BaseClass.loginToVtiger(BaseClass.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderAndStatusAsCreated -->
+        <test-method status="SKIP" signature="LogoutFromVtiger()[pri:0, instance:purchaseOrderModule.TC_17Test@368247b9]" name="LogoutFromVtiger" is-config="true" duration-ms="-1643860592633" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromVtiger -->
+        <test-method status="SKIP" signature="ClosingBrowser()[pri:0, instance:purchaseOrderModule.TC_17Test@368247b9]" name="ClosingBrowser" is-config="true" duration-ms="-1643860592646" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+      </class> <!-- purchaseOrderModule.TC_17Test -->
+      <class name="purchaseOrderModule.TC_19Test">
+        <test-method status="FAIL" signature="loginToVtiger()[pri:0, instance:purchaseOrderModule.TC_19Test@1e6a3214]" name="loginToVtiger" is-config="true" duration-ms="1" started-at="2022-02-03T09:26:32 IST" finished-at="2022-02-03T09:26:32 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at genericLibrary.BaseClass.loginToVtiger(BaseClass.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToVtiger -->
+        <test-method status="SKIP" signature="HomePageVtiger()[pri:0, instance:purchaseOrderModule.TC_19Test@1e6a3214]" name="HomePageVtiger" is-config="true" duration-ms="-1643860592559" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageVtiger -->
+        <test-method status="SKIP" signature="PurchaseOrderAndStatusAsCancelled()[pri:0, instance:purchaseOrderModule.TC_19Test@1e6a3214]" name="PurchaseOrderAndStatusAsCancelled" duration-ms="0" started-at="2022-02-03T09:26:32 IST" finished-at="2022-02-03T09:26:32 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at genericLibrary.BaseClass.loginToVtiger(BaseClass.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderAndStatusAsCancelled -->
+        <test-method status="SKIP" signature="LogoutFromVtiger()[pri:0, instance:purchaseOrderModule.TC_19Test@1e6a3214]" name="LogoutFromVtiger" is-config="true" duration-ms="-1643860592590" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromVtiger -->
+        <test-method status="SKIP" signature="ClosingBrowser()[pri:0, instance:purchaseOrderModule.TC_19Test@1e6a3214]" name="ClosingBrowser" is-config="true" duration-ms="-1643860592604" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+      </class> <!-- purchaseOrderModule.TC_19Test -->
+      <class name="purchaseOrderModule.TC_18Test">
+        <test-method status="FAIL" signature="loginToVtiger()[pri:0, instance:purchaseOrderModule.TC_18Test@1a6d8329]" name="loginToVtiger" is-config="true" duration-ms="1" started-at="2022-02-03T09:26:32 IST" finished-at="2022-02-03T09:26:32 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at genericLibrary.BaseClass.loginToVtiger(BaseClass.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToVtiger -->
+        <test-method status="SKIP" signature="HomePageVtiger()[pri:0, instance:purchaseOrderModule.TC_18Test@1a6d8329]" name="HomePageVtiger" is-config="true" duration-ms="-1643860592662" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageVtiger -->
+        <test-method status="SKIP" signature="PurchaseOrderAndStatusAsDelivered()[pri:0, instance:purchaseOrderModule.TC_18Test@1a6d8329]" name="PurchaseOrderAndStatusAsDelivered" duration-ms="0" started-at="2022-02-03T09:26:32 IST" finished-at="2022-02-03T09:26:32 IST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at genericLibrary.BaseClass.loginToVtiger(BaseClass.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PurchaseOrderAndStatusAsDelivered -->
+        <test-method status="SKIP" signature="LogoutFromVtiger()[pri:0, instance:purchaseOrderModule.TC_18Test@1a6d8329]" name="LogoutFromVtiger" is-config="true" duration-ms="-1643860592689" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromVtiger -->
+        <test-method status="SKIP" signature="ClosingBrowser()[pri:0, instance:purchaseOrderModule.TC_18Test@1a6d8329]" name="ClosingBrowser" is-config="true" duration-ms="-1643860592698" started-at="2022-02-03T09:26:32 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+      </class> <!-- purchaseOrderModule.TC_18Test -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>

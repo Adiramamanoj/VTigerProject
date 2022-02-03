@@ -32,12 +32,12 @@ public class BaseClass {
 	
 	
 //	Step1: Test Data From ExcelLibrary
-	String testURL = ExcelLibrary.readStringData("sheet1", 1, 0);
-	String userName=ExcelLibrary.readStringData("sheet1",1,1);
-	String userPassword= ExcelLibrary.readStringData("sheet1", 1, 2);
-	String homePageTitle= ExcelLibrary.readStringData("sheet1", 1, 3);
-	String purchaseOrderTitle= ExcelLibrary.readStringData("sheet1", 1, 4);
-	String loginPageTitle= ExcelLibrary.readStringData("sheet1", 1, 5);	
+	String testURL = ExcelLibrary.readStringData("Sheet1", 1, 0);
+	String userName=ExcelLibrary.readStringData("Sheet1",1,1);
+	String userPassword= ExcelLibrary.readStringData("Sheet1", 1, 2);
+	String homePageTitle= ExcelLibrary.readStringData("Sheet1", 1, 3);
+	String purchaseOrderTitle= ExcelLibrary.readStringData("Sheet1", 1, 4);
+	String loginPageTitle= ExcelLibrary.readStringData("Sheet1", 1, 5);	
 	
 	
 
@@ -80,7 +80,6 @@ public class BaseClass {
 		else {
 			Reporter.log("Login has Failed",true);
 		}
-
 	}
 
 
@@ -97,7 +96,8 @@ public class BaseClass {
 		
 		String expectedPurchaseOrderPageTitle=purchaseOrderTitle;
 		String actualPurchaseOrderPageTitle= driver.getTitle();
-		if(actualPurchaseOrderPageTitle.equalsIgnoreCase(expectedPurchaseOrderPageTitle)) {
+		if(actualPurchaseOrderPageTitle.equals
+				(expectedPurchaseOrderPageTitle)) {
 			Reporter.log("Purchase Order Page is displayed successfully", true);
 		}else {
 			Reporter.log("Purchase Order page is not displayed properly ", true);
