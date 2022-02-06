@@ -15,8 +15,11 @@ import pomRepository.PurchaseOrderPage;
  */
 
 public class TC_19Test extends BaseClass{
+	
+//	Reading data from execl file
 	public String statusCancelled= ExcelLibrary.readStringData("sheet1", 2, 3);
 	
+//	Step:5 Selecting Status As per requirement "Cancelled"
 	@Test
 	public void PurchaseOrderAndStatusAsCancelled() {
 		purchaseOrder= new PurchaseOrderPage(driver);

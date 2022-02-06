@@ -15,10 +15,12 @@ import pomRepository.PurchaseOrderPage;
  */
 
 public class TC_16Test extends BaseClass{
+	
+//	Reading data from execl file
 	public String statusApproved= ExcelLibrary.readStringData("sheet1", 2, 0);
 
 	
-//	Step:5 Selecting Status As per requirement
+//	Step:5 Selecting Status As per requirement "Approved"
 	@Test
 	public void PurchaseOrderAndStatusAsApproved() {
 		

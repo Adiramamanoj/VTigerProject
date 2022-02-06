@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Failed suite [Suite]]">
-  <test thread-count="5" verbose="0" name="Test(failed)(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test(failed)(failed)">
     <classes>
       <class name="purchaseOrderModule.TC_19Test">
         <methods>
@@ -23,16 +23,16 @@
           <include name="PurchaseOrderAndStatusAsCreated"/>
         </methods>
       </class> <!-- purchaseOrderModule.TC_17Test -->
-      <class name="purchaseOrderModule.TC_18Test">
+      <class name="purchaseOrderModule.TC_16Test">
         <methods>
-          <include name="PurchaseOrderAndStatusAsDelivered"/>
+          <include name="PurchaseOrderAndStatusAsApproved"/>
           <include name="launchingBrowser"/>
           <include name="LogoutFromVtiger"/>
           <include name="HomePageVtiger"/>
           <include name="ClosingBrowser"/>
           <include name="loginToVtiger"/>
         </methods>
-      </class> <!-- purchaseOrderModule.TC_18Test -->
+      </class> <!-- purchaseOrderModule.TC_16Test -->
     </classes>
   </test> <!-- Test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Suite]] -->

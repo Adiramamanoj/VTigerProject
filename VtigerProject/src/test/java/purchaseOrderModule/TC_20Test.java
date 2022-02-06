@@ -15,8 +15,11 @@ import pomRepository.PurchaseOrderPage;
  */
 
 public class TC_20Test extends BaseClass{
+	
+//	Reading data from execl file
 	public String statusReceviedShipment= ExcelLibrary.readStringData("sheet1", 2, 4);
 	
+//	Step:5 Selecting Status As per requirement "ReceviedShipement"
 	@Test
 	public void PurchaseOrderAndStatusAsReceviedShipment() {
 		purchaseOrder= new PurchaseOrderPage(driver);

@@ -16,9 +16,12 @@ import pomRepository.PurchaseOrderPage;
 
 
 public class TC_17Test extends BaseClass{
+	
+//	Reading data from execl file
 	public String statusCreated= ExcelLibrary.readStringData("sheet1", 2, 1);
 
 
+//	Step:5 Selecting Status As per requirement "Created"
 	@Test
 	public void PurchaseOrderAndStatusAsCreated() {
 		purchaseOrder= new PurchaseOrderPage(driver);
